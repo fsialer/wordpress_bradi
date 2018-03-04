@@ -1,0 +1,112 @@
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+.carousel-control-prev, .carousel-control-next{
+	width: 50px;
+}
+.services{
+	background-color: #F7F7F7;
+}
+	.services-title{
+		font-size: 2em;
+		color: #9A0000;
+	}
+.card{
+	border: 0;
+	background-color: #F7F7F7;
+	padding-bottom: 20px;
+}
+	.card-img-top{
+		margin-top: 20px;
+	}
+
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+
+#image {
+  min-height:200px;
+}
+
+.galeria-tittle{
+	background-color: #2F454F;
+	color: #fff;
+	font-size: 2em;
+	padding: 20px 0;
+}
+.gallery{
+	background-color: #000;
+}
+.marcas{
+	margin: 50px auto 150px;
+}
+.marca-tittle{
+	font-size: 2em;
+	color: #2F454F;
+	margin: 20px 0;
+}
+
+.marca-img{
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+}
+.marca-img{
+	filter: grayscale(100%);
+ 
+-webkit-filter: grayscale(100%);
+ 
+transition:filter 0.4s;
+ 
+-webkit-transition:-webkit-filter 1s;
+}
+
+.marca-img:hover{
+	filter: grayscale(0);
+ 
+-webkit-filter: grayscale(0);
+}
+
+.derechos{
+	background-color: #B50000;
+	color: #fff;
+}
+	.derechos div{
+		padding: 10px 10px;
+	}
+		.derechos div a{
+			text-decoration: none;
+			color: #fff;
+			font-size: 1.5em;
+		}
+		.derechos div a:hover{
+			padding: 5px 15px;
+			border-radius: 50%;
+			background-color: #fff;
+			color: #B50000;
+		}
+.contact-footer{
+	background-color: #2A343F;
+	color: #fff;
+}
+
+.g-f{
+	border-right: 1px solid #AEAEAE;
+	padding: 5px;
+}
+/*CSS*/
